@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 350px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.close {
+    color: red;
+    float: right;
+    cursor: pointer;
+}
+
+button {
+    margin: 5px 0;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+.appearance-controls {
+    margin-top: 20px;
+}
+
+select {
+    padding: 8px;
+    margin-top: 10px;
+}
